@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,300&display=swap');
+
+:root{
+    --fuente: 'Raleway', Helvetica, Sans-serif;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* Ahora 10px is equal to 1rem */
+}
+body{
+    font: normal normal 16px var(--fuente);
+}
+.contenedor{
+    max-width: 90%;
+    margin: 0 auto;
+}
