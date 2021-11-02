@@ -2,6 +2,12 @@
 
 :root{
     --fuente: 'Raleway', Helvetica, Sans-serif;
+
+    --negro: #000;
+}
+*{
+    margin: 0;
+    padding: 0;
 }
 *,
 *:before,
@@ -18,4 +24,12 @@ body{
 .contenedor{
     max-width: 90%;
     margin: 0 auto;
+}
+
+/*
+    Generales
+*/
+a{
+    text-decoration: none;
+    color: var(--negro)
 }
